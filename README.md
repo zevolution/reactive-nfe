@@ -1,8 +1,10 @@
-
-<center><img src="https://user-images.githubusercontent.com/36534847/85956631-6e30a400-b95d-11ea-9ab9-5ddd83bf57f4.png" alt="NFe-Logo" width="150" height="150"></center>
-<h1><center> Reactive-NFe </center><h1>
-
-![GIF 28-06-2020 17-19](https://user-images.githubusercontent.com/36534847/85957476-fd40ba80-b963-11ea-97fb-f3fe777b7713.gif)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/36534847/85956631-6e30a400-b95d-11ea-9ab9-5ddd83bf57f4.png" alt="NFe-Logo" width="150" height="150">
+<h1 align="center">Reactive-NFe</h1>
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/36534847/85957476-fd40ba80-b963-11ea-97fb-f3fe777b7713.gif">
+</p>
 
 ## Table of contents
 - [About the project](#about-the-project)
