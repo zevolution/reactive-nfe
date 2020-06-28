@@ -1,0 +1,146 @@
+object ViewNotaFiscalAdd: TViewNotaFiscalAdd
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 446
+  ClientWidth = 672
+  Position = OwnerFormCenter
+  Transparency = True
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object LayoutPrincipal: TLayout
+    Align = Contents
+    Size.Width = 672.000000000000000000
+    Size.Height = 446.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TabStop = False
+    object RectangleBackground: TRectangle
+      Align = Contents
+      Fill.Color = claBlack
+      Opacity = 0.500000000000000000
+      Size.Width = 672.000000000000000000
+      Size.Height = 446.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object RedisViewFrameAddNFe: TRectangle
+      Align = Client
+      Margins.Left = 100.000000000000000000
+      Margins.Top = 100.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Margins.Bottom = 100.000000000000000000
+      Size.Width = 472.000000000000000000
+      Size.Height = 246.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object LayoutTopButtons: TLayout
+        Align = Top
+        Size.Width = 472.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TabStop = False
+        object buttonAddNFe: TButton
+          Align = Right
+          Hint = 'Nova NFe'
+          Margins.Right = 5.000000000000000000
+          Position.X = 382.000000000000000000
+          Size.Width = 40.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'additembutton'
+          TabOrder = 1
+          TabStop = False
+          Text = 'Button1'
+          ParentShowHint = False
+          ShowHint = True
+          OnClick = buttonAddNFeClick
+        end
+        object buttonExit: TButton
+          Align = Right
+          Hint = 'Nova NFe'
+          Margins.Right = 5.000000000000000000
+          Position.X = 427.000000000000000000
+          Size.Width = 40.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'escapetoolbutton'
+          TabOrder = 0
+          TabStop = False
+          Text = 'Button1'
+          ParentShowHint = False
+          ShowHint = True
+          OnClick = buttonExitClick
+        end
+      end
+      object LayoutDestinatario: TLayout
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 119.000000000000000000
+        Size.Width = 432.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        TabStop = False
+        object labelDestinatario: TLabel
+          Align = Top
+          Size.Width = 432.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Destinat'#225'rio'
+          TabOrder = 1
+          TabStop = False
+        end
+        object editDestinatario: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 0
+          Size.Width = 432.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Insira aqui o destinat'#225'rio desta NFe'
+        end
+      end
+      object LayoutEmitente: TLayout
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 432.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        TabStop = False
+        object labelEmitente: TLabel
+          Align = Top
+          Size.Width = 432.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Emitente:'
+          TabOrder = 1
+          TabStop = False
+        end
+        object editEmitente: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 0
+          Size.Width = 432.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Insira aqui o emitente desta NFe'
+        end
+      end
+    end
+  end
+end
