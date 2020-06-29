@@ -13,7 +13,7 @@
 - [Installation](#instalation)
 - [Run](#run)
 - [Notes](#notes)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## About the project
@@ -79,7 +79,7 @@ You can modify `Build configurations` to **Debug** or **Release**. And use the s
 ### Delphi
 If you do not have Delphi, you can do download and use [Delphi-CE](https://www.embarcadero.com/products/delphi/starter/free-download). 
 
-## Acknowledgements
+## Acknowledgments
 
 * [Thulio Bittencourt](https://github.com/bittencourtthulio) - Maintainer of the Thulio Bittencourt channel on Youtube, where he passes on much of his knowledge in his videos for free, talking about UI&UX and many other topics such as clean code, NoSQL, high-performance servers and how to make your business go high.
 * [Mário Guedes](https://github.com/jmarioguedes) (What Mario? haha) - Known as the great software artisan, he works as an architect of high-performance solutions. He helped me with his lectures (TDC2018) and examples on Github, showing the power of Redis
