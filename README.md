@@ -10,7 +10,7 @@
 - [About the project](#about-the-project)
 - [Description](#description)
 - [Built with](#built-with)
-- [Installation](#instalation)
+- [Installation](#installation)
 - [Run](#run)
 - [Notes](#notes)
 - [Acknowledgments](#acknowledgments)
