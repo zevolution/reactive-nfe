@@ -24,8 +24,8 @@ This project basically contains:
 * A simple example of how to create application interfaces that are very attractive and provide rich interaction to the user
 * An introduction to Reactive Programming, using two of its four pillars ([see more](https://www.reactivemanifesto.org/)):
   * [x] Responsive - A system of NFe which the user can monitor the status of each NFe in real-time
-  * [] Resilient
-  * [] Elastic
+  * [ ] Resilient
+  * [ ] Elastic
   * [x] Message Driven - We use an asynchronous message to establish communication between our view-layer and infrastructure-layer
 * Cache service to the principal numbers in user dashboard
 * My vision of how to would be a software development approach in which design is domain-driven(DDD), described in the book of [Uncle Bob](https://www.amazon.com.br/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), applied in Delphi
